@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Put ecommerce</title>
+</head>
+<body>
+    <div id="root">
+        <h2 class="root__titulo">Editar Produto</h2>
+        <form>
+            <div class="inputClass">
+                <input type="text" id="idProduto" placeholder="ID do Produto" class="inputEnviar">
+                <button id="btnPesquisarProduto" class="botaoPesquisar">Pesquisar</button>
+            </div>
+        </form>
+        <form class="formulario__editar" id="formulario__pesquisa">
+            <input type="text" placeholder="Nome do Produto" id="nomeProduto" class="inputPadrao">
+            <input type="number" placeholder="Preço do produto" id="precoProduto" class="inputPadrao">
+            <textarea name="" placeholder="Descrição do Produto" id="descricaoProduto" class="inputPadrao"></textarea>
+            <select name="categoriaproduto" id="categoriaproduto" class="selectPadrao">
+                <option value="1">Eletronicos</option>
+                <option value="2">Roupas</option>
+                <option value="3">Imobiliaria</option>
+                <option value="4">Tenis</option>
+                <option value="5">Outros</option>
+            </select>
+            <input 
+            type="text" 
+            name="imagemproduto" 
+            id="imagemproduto" 
+            class="inputPadrao"
+            placeholder="Link da imagem do Produto"
+            required>
+            <img src="" alt="" class="imagemProduto" id="imagempreviw">
+            <div class="botoes">
+                <button id="btnEditarProduto" class="botaoPadrao">Editar</button>
+                <button id="btnDeletarProduto" class="botaoPadrao">Deletar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

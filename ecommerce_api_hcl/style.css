@@ -1,0 +1,151 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+#root > h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.vitrine{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.produto__preco{
+    font-size: 30px;
+    color: #5A2D82;
+}
+
+.produto__nome{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.produto__imagem{
+    width: 12rem;
+    height: 12rem;
+    align-self: center;
+}
+
+@media screen and (max-width:600px) {
+    .vitrine{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto{
+        width: 80%;
+    }
+}
+
+/*Pesquisa*/
+
+.root__formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.root__formulario > h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.root__formulario > form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.inputEnviar{
+    width: 90%;
+    border: 0px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.botaoPesquisar{
+    width: 10%;
+    background-color: #fff;
+    border: 0px;
+}
+
+ion-icon {
+    color: #5A2D82;
+}
+
+.inputClass{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #5A2D82;
+    box-shadow: 1px 1px 5px #5A2D82;
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+}
+
+.root__formulario--produto--pesquisa{
+    display: flex;
+    flex-direction: column;
+}
+
+.produto__pesquisa{
+
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    border-radius: 50px;
+    border: 1px solid #5A2D82;
+    padding: 20px;
+}
+
+.imagem__pesquisa{
+    width: 300px;
+    align-self: center;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 50px;
+}
+
+.produto__nome--pesquisa{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+}
+
+.produto__descricao--pesquisa
+{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #5A2D82;
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.font__montserrat{
+    font-family: 'Montserrat Alternates', sans-serif;
+}

@@ -1,0 +1,59 @@
+//Cadastro usuário
+{
+    "id":number,
+    "nomeCompleto*":string,
+    "email*":string,
+    "telefone":string,
+    "dataNascimento*":date,
+    "senha*":string,
+    "concentimento*":boolean
+}
+
+//Post imagem
+{
+    "id":number,
+    "idPublicador*":number,
+    "image*": string,
+    "descricao":string,
+    "flagAdocao":boolean,
+    "detalhesAdocao": {
+        "gestante*":string,
+        "vacinado*": string,
+        "castrado*":string
+    }
+}
+
+//Implementação Futura
+//Likes
+{
+    "idPost*":number,
+    "usuarioExterno": [
+        {
+            "idUsuarioExterno":number
+        }
+    ]
+}
+
+//comentario
+{
+    "idPost*":number,
+    "comentarios": [
+        {
+            "id*":number,
+            "idUsuario*":number,
+            "comentario":string
+        }
+    ]
+}
+
+//solicitacao
+{
+    "id":number,
+    "idSolicitante": number,
+    "idUsuario": number,
+    "status":{
+        "id":number,
+        "desc":string
+    }
+
+}

@@ -1,0 +1,64 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.root__titulo{
+    font-size: 35px;
+    align-self: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.cadastrar__produto{
+    align-self: center;
+    box-sizing: border-box;
+    background-color: #5A2D82;
+    border-radius: 50px;
+    width: 100%;
+    padding: 25px;
+}
+
+.cadastrar__produto--formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputpadrao{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.categoriaInput{
+    width: 100px;
+    background-color: white;
+    color: #5A2D82;
+    border: 0px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.imagemProduto
+{
+    width: 300px;
+    border-radius: 30px;
+    align-self: center;
+    margin: 10px 0px;
+}
+
+.btnCadastrar{
+    background-color: white;
+    border: 0px;
+    border-radius: 30px;
+    color: #5A2D82;
+    font-size: 20px;
+    align-self: center;
+    padding: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}

@@ -1,0 +1,111 @@
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+.root__titulo
+{
+    align-self: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 35px;
+}
+.formulario__editar{
+    display: none;
+    flex-direction: column;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid #5A2D82;
+    border-radius: 25px;
+}
+
+.inputEnviar{
+    width: 90%;
+    border: 0px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.botaoPesquisar{
+    width: 100px;
+    background-color: #5A2D82;
+    color: #fff;
+    border: 0px;
+    padding: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 25px;
+}
+
+
+.inputClass{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #5A2D82;
+    box-shadow: 1px 1px 5px #5A2D82;
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
+}
+
+.inputPadrao
+{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #5A2D82;
+}
+
+.inputPadrao:hover
+{
+    box-shadow: 1px 1px 5px #5A2D82;
+}
+
+.selectPadrao
+{
+    background-color: #5A2D82;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: 0px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.imagemProduto{
+    width: 300px;
+    border-radius: 30px;
+    align-self: center;
+    margin: 10px 0px;
+}
+
+.botaoPadrao
+{
+    padding: 15px;
+    margin: 15px;
+    width: 50%;
+    background-color: #5A2D82;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+.botoes{
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:660px) {
+
+    .inputClass{
+        flex-direction: column;
+    }
+    
+    .botaoPesquisar{
+        width: 100px;
+    }
+}

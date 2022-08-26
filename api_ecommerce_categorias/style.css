@@ -1,0 +1,82 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    background-color: #5A2D82;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.categoria__produtos{
+    display: flex;
+    flex-direction: column;
+}
+
+#eletronicos{
+    display: none;
+}
+
+#joias{
+    display: none;
+}
+
+#roupasMasculinas{
+    display: none;
+}
+
+#roupasFemininas{
+    display: none;
+}
+
+.divprodutos__categoria
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto__categoria{
+    border: 1px solid rgba(145, 0, 158, 0.5);
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.produto__categoria:hover{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.imagem__categoria{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.produto__nome--categoria{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0px;
+}
+
+.produto__preco--categoria{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #5A2D82;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+}

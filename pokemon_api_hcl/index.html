@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet"> 
+    <title>Api Pokemon HCL</title>
+</head>
+<body>
+    <div id="root">
+        <div class="root__formulario">
+            <h2>Pesquise seu Pokemon</h2>
+            <form action="">
+                <input type="text" id="namePokemon" class="inputPokemon" placeholder="Pesquise seu pokemon" required>
+                <button id="pesquisaPokemon" class="botaoPesquisar">Pesquisar</button>
+            </form>
+        </div>
+        <div class="dadospokemon" id="dadosPokemon">
+            <h2 id="nomePokemonApi">Nome do Pokemon: Pikachu</h2>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/25.png" alt="" class="dadospokemon__imagem" id="imagemDoPokemon">
+            <div class="tiposDoPokemon">
+                <p id="pTipoDoPokemon">Tipos do pokemon: eletric</p>
+            </div>
+            <div class="statusPokemon">
+                <p class="hp" id="hp">hp: 20</p>
+                <p class="attack" id="attack">attack: 30</p>
+                <p class="defense" id="defense">defense: 30</p>
+                <p class="special-attack" id="special-attack">special-attack: 50</p>
+                <p class="special-defense" id="special-defense">special-defense: 50</p>
+                <p class="speed" id="speed">speed: 90</p>
+            </div>
+            <div class="frenteEVerso">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="" id="imagemPokemonFrente">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="" id="imagemPokemonVerso">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+//CadastroOng
+{
+    "id":number,
+    "cnpj*":number,
+    "nomeFantasia*":string,
+    "razaoSocial*":string,
+    "telefoneFixo":string,
+    "telefoneCelular*":string,
+    "endereco*": {
+        "uf": {
+            "id" number,
+            "uf": string
+        },
+        "cep*":string,
+        "numero*":number,
+        "complemento":string,
+        "logradouro*":string,
+        "bairro*":string,
+        "municipio*":string
+    },
+    "email*":string,
+    "senha*":string,
+    "concentimento":boolean
+}

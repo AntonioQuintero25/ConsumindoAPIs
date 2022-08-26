@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Post ecommerce</title>
+</head>
+<body>
+    <div id="root">
+        <h2 class="root__titulo">Cadastrar Produto</h2>
+        <div class="cadastrar__produto">
+            <form class="cadastrar__produto--formulario">
+                <input 
+                    type="text" 
+                    name="nomeproduto" 
+                    id="nomeproduto" 
+                    placeholder="Digite o nome do produto" 
+                    class="inputpadrao"
+                required>
+                <input 
+                    type="number" 
+                    name="precoproduto" 
+                    id="precoproduto"
+                    class="inputpadrao"
+                required>
+                <textarea 
+                name="descricaoproduto"
+                id="descricaoproduto" 
+                class="inputpadrao"
+                placeholder="Digite a descrição do seu produto" 
+                required>
+            </textarea>
+            <select name="categoriaproduto" id="categoriaproduto" class="categoriaInput">
+                <option value="1">SP</option>
+                <option value="2">Eletronicos</option>
+                <option value="3">Imobiliaria</option>
+                <option value="4">Tenis</option>
+                <option value="5">Outros</option>
+            </select>
+            <input 
+            type="text" 
+            name="imagemproduto" 
+            id="imagemproduto" 
+            class="inputpadrao"
+            required>
+            <img src="" alt="" class="imagemProduto" id="imagempreviw">
+            <button id="btncadastrarproduto" class="btnCadastrar">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
